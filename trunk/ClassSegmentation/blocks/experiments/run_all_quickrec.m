@@ -1,3 +1,0 @@
-run_quickrec;
-run_quickrec_MS_1;
-run_quickrec_MS_2;
