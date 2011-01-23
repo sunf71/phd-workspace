@@ -1,0 +1,50 @@
+#  #!/bin/sh
+#!/usr/bin/ksh
+
+if [ $# -ne 2 ]; then 
+    echo "usage : g2k file.g file.k"
+    echo "convert the file file.g in gyuri text or binary format"
+    echo "to krystian format for repeatability and matching application"
+    echo ""
+    exit 1
+fi
+
+bin=`file $1 | grep data`
+# dumpcontents $1 > /tmp/g2k.$$.$$
+
+awk '$1=="Position"    {printf("%s %s, ",$3,$4)}
+     $1=="Scale:"      {printf("%s, ",$2)}
+     $1=="Affine"      {printf("%s %s %s, ",$3, $4, $6)}
+     $1=="Computed"    {size=$NF}
+     $1=="Descriptor:" {for (i=2;i<=size+1;i++) printf("%s ",$i) ; printf("\n"); }
+     END { print size }
+     ' /tmp/g2k.$$.$$ > /tmp/g2k.$$
+     
+size=`tail -n 1 /tmp/g2k.$$` 
+nbPtp1line=`wc -l /tmp/g2k.$$`
+nbPtp1=`echo $nbPtp1line | awk '{print $1}' `
+let nbPt=$nbPtp1-1
+
+echo $size >  $2
+echo $nbPt >> $2
+
+# caution : the input matrix of krystian is (sU)^(-2) 
+# det should be scale*scale
+awk -F , -v nbPtp1=$nbPtp1 -v size=$size \
+         ' NR!=nbPtp1 { sU11 = $3*$4 ; sU12 = $3*$5 ; sU22 = $3*$6;
+	                det = sU11*sU22 -sU12*sU12;
+			invdet2 = 1 / (det*det);
+			a = sU22^2 + sU12^2;
+			b = -sU12*(sU11+sU22);
+			c = sU11^2 + sU12^2;
+	                printf("%s %s %s %s %s ",$1, $2, a*invdet2, b*invdet2, c*invdet2);
+                        for (i=7;i<=size+6;i++) printf("%s ",$i) ;
+                        printf("\n");
+	              } ' /tmp/g2k.$$ >> $2
+
+rm -f /tmp/g2kazertyuiop /tmp/g2k.$$ /tmp/g2k.$$.$$
+
+
+
+
+

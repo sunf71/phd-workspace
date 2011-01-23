@@ -1,0 +1,73 @@
+#! /bin/bash
+
+image_location=/home/joost/images/voetbal/
+
+color_name=hueN6
+color_name2=oppN6
+color_name3=CN_LAB6
+
+cd /home/joost/data/class/voetbal/descriptors
+function my_debug () {
+  while true
+  do
+    echo -n "debug> "
+    read cmd
+    if [ -z "$cmd" ]; then
+      break
+    fi
+    # echo "exec'ing $cmd"
+    eval "$cmd"
+  done
+}
+
+	counter_images=0;
+		for i in `more images.txt`
+		do
+		   	cd $i
+			echo  $i
+		   	counter_images=$[$counter_images+1]
+		  	counter=0;
+			echo $image_location/images.txt
+			for image_name in `more $image_location/images.txt`
+			do
+				counter=$[$counter+1]
+				if [ $counter_images -eq $counter ]; then
+					image_path=$image_location/$image_name
+					
+				fi
+			done
+			echo $i
+			echo $image_path
+			
+			#Detect -minscale 6 -new -dtype log $image_path log.corns
+			#Detect  -minscale 3  -new -dtype log $image_path log.corns
+			
+			awk '{if ($1 >0 ) print $1,$2,$3,$4,$5}' DoG.txt > location2.temp
+			k2gy_v2 location2.temp > location3.temp
+			text2corners -addaff abc location3.temp location.corns
+
+			convert $image_path temp.pgm
+
+			ComputeDescriptor -dtype sift -siftscone 4 temp.pgm location.corns points.temp
+			g2k_JvdW points.temp points4.txt
+			
+			#colordesc -lambda 1 -scone 6 $image_path location.corns $color_name.temp 
+			#g2k_JvdW $color_name.temp $color_name.txt
+
+			#colordesc -opponent -lambda 1 -scone 6 $image_path location.corns $color_name2.temp 
+			#g2k_JvdW $color_name2.temp $color_name2.txt
+			
+			#colordesc -CN  -scone 6 -RGB2CN '/home/adrian/vandewei/data/colors2/RGB2CN_LAB_g2_4_G1.txt' $image_path location.corns $color_name3.temp
+			#g2k_JvdW $color_name3.temp $color_name3.txt	
+	
+			#colordesc -patchSize 21 -lambda 1 -scone 4 $image_path log.corns $color_name2.temp -opponent
+			#g2k_JvdW $color_name2.temp $color_name2.txt
+			
+			#colordesc -lamba 1 -nb_smooth 3 -siftscone 4 $image_path log.corns $color_name.temp 
+			#g2k $color_name.temp $color_name.txt
+						
+			rm *.temp
+			rm temp.*
+			cd ..
+		done
+

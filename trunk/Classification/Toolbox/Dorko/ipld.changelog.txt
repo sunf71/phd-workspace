@@ -1,0 +1,48 @@
+02/11/2005
+	- added option -unnormalized (ComputeDescriptor)
+
+05/09/2005
+	- bugfix in SIFT computation (ComputeDescriptor)
+
+22/08/2005:
+	- Harris-Laplace
+		- new implementation, faster and better
+		- subpixel
+		- for backward compatibility old implementation still available via -old
+		- still in a bit beta state, but added option -scalestep
+		- no scale selection to get multi-scale representation
+	- Added detector: dense 
+	  	- defines a multiscale dense grid instead of detection points (useful e.g. for dense texture representation)
+	- Affine computation
+	  	- faster, better
+		- for backward compatibility old implementation still available via -old
+		- a_xxx options do not work anymore
+	- Angle computation
+	  	- different implementation, now it is only a gradient in the center (faster, better with Harris-Laplace).
+		- for backward compatibility old implementation still available via -old
+	- SIFT
+	  	- new implementation from almost scratch: faster better
+		- new options, more control on computation (window size, number of cells/bins)
+		- for backward compatibility old implementation still available via -old
+		- the default parameters for the new implementation are set to resemble as much as possible the old one.
+	- Added representation: spin (Spin-Images)
+	- Image I/O completely replaced with new implementation.
+
+16/06/2004:
+	- New detectors: DoG, LoG
+	- New descriptor: SIFT
+	- Some bug fixes
+	- User's Guide separately available
+
+15/01/2004:
+	- Static binaries
+	- ImageMagick (dynamically linked) binaries still included
+
+13/06/2003: 
+	- Better affine estimation
+	- Corrected bugs (frozen load/store)
+	- Detect can be run on several files (specifying a list file)
+	- Added DISPLAY feature to DrawCorners and Detect -ma
+
+31/03/2003: Initial version
+

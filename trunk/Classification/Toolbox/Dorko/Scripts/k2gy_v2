@@ -1,0 +1,2 @@
+awk 'BEGIN { fid=-1; b=1 } { if(NF<5){ if(b) ++fid; b=0; } else { printf("%f %f %f %d %f %f %f",$1,$2,1.0,fid,$3,$4,$5); for(j=6; j<=NF; ++j) printf(" %f",$j); printf("\n"); b=1} }' $1
+
