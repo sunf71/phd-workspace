@@ -1,0 +1,53 @@
+Important note: these binaries can be used for non-commercial purposes only.
+
+Purpose: Scale Invariant Interest Point Detectors, Local Descriptors
+
+They are used in the paper:
+	Gy. Dorkó and C. Schmid
+	Selection of Scale Invariant Neighborhoods for Object Class Recognition 9th International Conference on Computer Vision , 2003.
+	(http://www.inrialpes.fr/lear/people/dorko/pub.html)
+
+This archive contains the following binaries:
+	Detect - Scale invariant interest point detection
+	ComputeDescriptor - computing local descriptors
+	DrawCorners - Show the result on the image
+	dumpcontents - convert the result to ascii text
+	hldesc - print the descriptors (obsolete in favor of corners2text)
+	corners2matlab-r12 and corners2matlab-r13 - convert the result to matlab format
+	corners2text - convert detected points/descriptors to text
+	MergeCorners - merge detected files
+	SelectCorners - select some descriptors from the binary files
+	text2corners - convert text files to the input format of ComputeDescriptor
+	ipld.changelog.txt - changes to the archive
+	ipld.readme.txt - this readme file
+
+General binary information:
+	Most of them: 
+		ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), for GNU/Linux 2.2.5, statically linked
+		Shortly: If you have a pc with Linux installed they should all work.
+
+	corners2matlab-xx
+		ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), for GNU/Linux 2.2.5, dynamically linked (uses shared libs), not stripped
+		Dynamically linked libraries:
+        linux-gate.so.1
+        libmx.so
+        libut.so
+        libmat.so
+        libmi.so
+        libstdc++.so.6
+        libm.so.6
+        libgcc_s.so.1
+        libc.so.6
+        libstdc++-libc6.1-2.so.3
+        libdl.so.2
+        libpthread.so.0
+        /lib/ld-linux.so.2
+
+		You must have all of these to run the matlab conversation tool. (Don't
+		forget to set you LD_LIBRARY_PATH variable if it is necessary.)
+		Shortly: You should not have any problem if gcc 3.x and MatLab installed on your system.
+		You may need to get libstdc++-libc6.1-2.so.3 from somewhere (matlab libs use it).
+		Note that there are 2 matlab conversion utility corners2matlab-r12 and corners2matlab-r13
+		If you have a different version try to use corners2text and load the text file in matlab.
+	
+For general help and available options please run the appropriate binary with -help option.

@@ -1,0 +1,45 @@
+----------------------------------------------
+LICENSE CONDITIONS FOR COMPLETE SOFTWARE
+
+The following license conditions apply to the complete software package:
+Detect:
+	Detectors: Harris-Laplace, LoG, DoG
+		For DoG - see additional LICENSE for SIFT below
+ComputeDescriptor:
+	Descriptors: Local Jets, SIFT, Spin-Images
+		For SIFT (with option -old) - see additional LICENSE for SIFT below
+Tools:
+	visualization and conversion
+
+This software package for the detection and local description of scale
+invariant interest points/regions is being made available for research purposes
+only.  Any commercial use or resale of this software is prohibited without
+mutual agreement of the Authors. For further details, contact Gyorgy Dorko
+(dorko@inrialpes.fr).
+
+THE AUTHORS MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THIS
+SOFTWARE.
+
+Copyright (2004), INRIA Rhone-Alpes - LEAR
+
+This license file must be retained with all copies of this software package.
+--------------------------------------------------
+----------------------------------------------
+LICENSE CONDITIONS FOR SIFT SOFTWARE (Detect -dt dog, and ComputeDescriptor -old_impl -dt sift)
+
+The following license conditions apply to the SIFT features.
+
+This software for the detection of invariant keypoints is being made
+available for research purposes only.  Any commercial use or
+resale of this software requires a license agreement with the
+University of British Columbia.  For further details, contact David
+Lowe (lowe@cs.ubc.ca) or the University-Industry Liaison Office of the
+University of British Columbia.
+
+THE UNIVERSITY OF BRITISH COLUMBIA MAKES NO REPRESENTATIONS OR
+WARRANTIES OF ANY KIND CONCERNING THIS SOFTWARE.
+
+Copyright (2003), University of British Columbia.
+
+This license file must be retained with all copies of the SIFT software.
+--------------------------------------------------
