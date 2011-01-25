@@ -1,0 +1,195 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{1059188}
+S.~Agarwal, S.~Madasu, M.~Hanmandlu, and S.~Vasikarla.
+\newblock A comparison of some clustering techniques via color segmentation.
+\newblock In {\em ITCC '05: Proceedings of the International Conference on
+  Information Technology: Coding and Computing (ITCC'05) - Volume II}, pages
+  147--153, 2005.
+
+\bibitem{649285}
+E.~Borenstein and S.~Ullman.
+\newblock Class-specific, top-down segmentation.
+\newblock In {\em ECCV '02: Proceedings of the 7th European Conference on
+  Computer Vision-Part II}, 2002.
+
+\bibitem{Cheng01colorimage}
+H.~D. Cheng, X.~H. Jiang, Y.~Sun, and J.~L. Wang.
+\newblock Color image segmentation: Advances and prospects.
+\newblock {\em Pattern Recognition}, 34:2259--2281, 2001.
+
+\bibitem{Christoudias02synergismin}
+C.~M. Christoudias, B.~Georgescu, P.~Meer, and C.~M. Georgescu.
+\newblock Synergism in low level vision.
+\newblock In {\em In International Conference on Pattern Recognition}, pages
+  150--155, 2002.
+
+\bibitem{libsvm}
+C.~chung Chang and C.-J. Lin.
+\newblock Libsvm: a library for support vector machines, 2001.
+
+\bibitem{Comaniciu02meanshift}
+D.~Comaniciu, P.~Meer, and S.~Member.
+\newblock Mean shift: A robust approach toward feature space analysis.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  24:603--619, 2002.
+
+\bibitem{1069213}
+T.~Cour, F.~Benezit, and J.~Shi.
+\newblock Spectral segmentation with multiscale graph decomposition.
+\newblock In {\em CVPR '05: Proceedings of the 2005 IEEE Computer Society
+  Conference on Computer Vision and Pattern Recognition (CVPR'05) - Volume 2},
+  pages 1124--1131, 2005.
+
+\bibitem{jseg:462311}
+Y.~Deng and B.~S. Manjunath.
+\newblock Unsupervised segmentation of color-texture regions in images and
+  video.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 23:800--810, 2001.
+
+\bibitem{pascal-voc-2007}
+M.~Everingham, L.~V. Gool, C.~K.~I. Williams, J.~Winn, and A.~Zisserman.
+\newblock The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2007 {(VOC2007)}
+  {R}esults.
+\newblock
+  http://www.pascal-network.org/challenges/VOC/voc2007/workshop/index.html.
+
+\bibitem{Felzenszwalb04efficientgraph-based}
+P.~F. Felzenszwalb and D.~P. Huttenlocher.
+\newblock Efficient graph-based image segmentation.
+\newblock {\em International Journal of Computer Vision}, 59, 2004.
+
+\bibitem{649319}
+J.~Freixenet, {n}oz Xavier~Mu\, D.~Raba, J.~Mart{\'i}, and X.~Cuf{\'i}.
+\newblock Yet another survey on image segmentation: Region and boundary
+  information integration.
+\newblock In {\em ECCV '02: Proceedings of the 7th European Conference on
+  Computer Vision-Part III}, pages 408--422, 2002.
+
+\bibitem{fulkerson09class}
+B.~Fulkerson, A.~Vedaldi, and S.~Soatto.
+\newblock Class segmentation and object localization with superpixel
+  neighborhoods.
+\newblock In {\em Proc. {ICCV}}, 2009.
+
+\bibitem{grubbs-1969}
+F.~E. Grubbs.
+\newblock Procedures for detecting outlying observations in samples.
+\newblock {\em Technometrics}, 11:1--21, 1969.
+
+\bibitem{dip-unimodality}
+J.~A. Hartigan and P.~M. Hartigan.
+\newblock The dip test of unimodality.
+\newblock {\em The Annals of Statistics}, 13, 1985.
+
+\bibitem{Leibe04combinedobject}
+B.~Leibe, A.~Leonardis, and B.~Schiele.
+\newblock Combined object categorization and segmentation with an implicit
+  shape model.
+\newblock In {\em In ECCV workshop on statistical learning in computer vision},
+  pages 17--32, 2004.
+
+\bibitem{malisiewicz-bmvc07}
+T.~Malisiewicz and A.~A. Efros.
+\newblock Improving spatial support for objects via multiple segmentations.
+\newblock In {\em British Machine Vision Conference (BMVC)}, September 2007.
+
+\bibitem{MartinFTM01}
+D.~Martin, C.~Fowlkes, D.~Tal, and J.~Malik.
+\newblock A database of human segmented natural images and its application to
+  evaluating segmentation algorithms and measuring ecological statistics.
+\newblock In {\em Proc. 8th Int'l Conf. Computer Vision}, volume~2, pages
+  416--423, July 2001.
+
+\bibitem{citeulike:3906686}
+M.~Meila.
+\newblock Comparing clusterings by the variation of information.
+\newblock pages 173--187. 2003.
+
+\bibitem{4587471}
+A.~Moore, S.~Prince, J.~Warrell, U.~Mohammed, and G.~Jones.
+\newblock Superpixel lattices.
+\newblock In {\em Computer Vision and Pattern Recognition, 2008. CVPR 2008.
+  IEEE Conference on}, pages 1--8, 23-28 2008.
+
+\bibitem{PSH08}
+C.~Pantofaru, C.~Schmid, and M.~Hebert.
+\newblock Object recognition by integrating multiple image segmentations.
+\newblock In {\em European Conference on Computer Vision}, volume III, pages
+  481--494, 2008.
+
+\bibitem{Ren03learninga}
+X.~Ren and J.~Malik.
+\newblock Learning a classification model for segmentation.
+\newblock In {\em In Proc. 9th Int. Conf. Computer Vision}, pages 10--17, 2003.
+
+\bibitem{Efros_2006_5395}
+B.~C. Russell, A.~A. Efros, J.~Sivic, W.~T. Freeman, and A.~Zisserman.
+\newblock Using multiple segmentations to discover objects and their extent in
+  image collections.
+\newblock In {\em Proceedings of CVPR}, June 2006.
+
+\bibitem{Sha85}
+S.~A. Shafer.
+\newblock {Using color to separate reflection components}.
+\newblock {\em Color Research \& Application}, 10(4):210--218, 1985.
+
+\bibitem{Shi_2000_3808}
+J.~Shi and J.~Malik.
+\newblock Normalized cuts and image segmentation.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 22, 2000.
+
+\bibitem{Unnikrishnan_2007_5789}
+R.~Unnikrishnan, C.~Pantofaru, and M.~Hebert.
+\newblock Toward objective evaluation of image segmentation algorithms.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  29:929--944, 2007.
+
+\bibitem{1478239}
+E.~Vazquez, J.~Weijer, and R.~Baldrich.
+\newblock Image segmentation in the presence of shadows and highlights.
+\newblock In {\em ECCV '08: Proceedings of the 10th European Conference on
+  Computer Vision}, pages 1--14, 2008.
+
+\bibitem{vedaldi08vlfeat}
+A.~Vedaldi and B.~Fulkerson.
+\newblock {VLFeat}: An open and portable library of computer vision algorithms,
+  2008.
+
+\bibitem{vedaldi08quick}
+A.~Vedaldi and S.~Soatto.
+\newblock Quick shift and kernel methods for mode seeking.
+\newblock In {\em Proceedings of the European Conference on Computer Vision
+  ({ECCV})}, 2008.
+
+\bibitem{tkk_pascal}
+V.~Viitaniemi.
+\newblock Helsinki university of technology, pascal voc2007 challenge, 2007.
+
+\bibitem{Weijer05boostingcolor}
+J.~V.~D. Weijer, T.~Gevers, A.~Bagdanov, I.~A. Edge, F.~Detection, and I.~D.
+  Statistical.
+\newblock Boosting color saliency in image feature detection.
+\newblock {\em IEEE Trans. Pattern Analysis and Machine Intelligence},
+  28:150--156, 2005.
+
+\bibitem{1097721}
+J.~Winn and N.~Jojic.
+\newblock Locus: Learning object classes with unsupervised segmentation.
+\newblock In {\em ICCV '05: Proceedings of the Tenth IEEE International
+  Conference on Computer Vision (ICCV'05) Volume 1}, pages 756--763, 2005.
+
+\bibitem{Yang07unsupervisedsegmentation}
+A.~Y. Yang, J.~Wright, S.~S. Sastry, and Y.~Ma.
+\newblock Unsupervised segmentation of natural images via lossy data
+  compression.
+\newblock Technical Report UCB/EECS-2006-195, EECS Department, University of
+  California, Berkeley, 2006.
+
+\bibitem{Yz_colorimage}
+L.~L. Yz and Y.~{S. K. Mitra}.
+\newblock Color image segmentation: A state-of-the-art survey, 2001.
+
+\end{thebibliography}

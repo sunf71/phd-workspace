@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{1059188}
+Agarwal, S., Madasu, S., Hanmandlu, M., Vasikarla, S.: A comparison of some
+  clustering techniques via color segmentation. In: Proceedings of the
+  International Conference on Information Technology: Coding and Computing
+  (ITCC'05) (2005)
+
+\bibitem{649285}
+Borenstein, E., Ullman, S.: Class-specific, top-down segmentation. In: ECCV
+  '02: Proceedings of the 7th European Conference on Computer Vision-Part II
+  (2002)
+
+\bibitem{Cheng01colorimage}
+Cheng, H.D., Jiang, X.H., Sun, Y., Wang, J.L.: Color image segmentation:
+  Advances and prospects. Pattern Recognition  34,  2259--2281 (2001)
+
+\bibitem{Comaniciu02meanshift}
+Comaniciu, D., Meer, P., Member, S.: Mean shift: A robust approach toward
+  feature space analysis. IEEE Transactions on Pattern Analysis and Machine
+  Intelligence  24,  603--619 (2002)
+
+\bibitem{jseg:462311}
+Deng, Y., Manjunath, B.S.: Unsupervised segmentation of color-texture regions
+  in images and video. Pattern Analysis and Machine Intelligence  23,  800--810
+  (2001)
+
+\bibitem{Felzenszwalb04efficientgraph-based}
+Felzenszwalb, P.F., Huttenlocher, D.P.: Efficient graph-based image
+  segmentation. International Journal of Computer Vision  59 (2004)
+
+\bibitem{649319}
+Freixenet, J., {n}oz Xavier~Mu\, Raba, D., Mart{\'i}, J., Cuf{\'i}, X.: Yet
+  another survey on image segmentation: Region and boundary information
+  integration. In: ECCV '02: Proceedings of the 7th European Conference on
+  Computer Vision-Part III. pp. 408--422 (2002)
+
+\bibitem{fulkerson09class}
+Fulkerson, B., Vedaldi, A., Soatto, S.: Class segmentation and object
+  localization with superpixel neighborhoods. In: Proc. {ICCV} (2009)
+
+\bibitem{grubbs-1969}
+Grubbs, F.E.: Procedures for detecting outlying observations in samples.
+  Technometrics  11,  1--21 (1969)
+
+\bibitem{dip-unimodality}
+Hartigan, J.A., Hartigan, P.M.: The dip test of unimodality. The Annals of
+  Statistics  13 (1985)
+
+\bibitem{Leibe04combinedobject}
+Leibe, B., Leonardis, A., Schiele, B.: Combined object categorization and
+  segmentation with an implicit shape model. In: ECCV workshop on statistical
+  learning in computer vision. pp. 17--32 (2004)
+
+\bibitem{MartinFTM01}
+Martin, D., Fowlkes, C., Tal, D., Malik, J.: A database of human segmented
+  natural images and its application to evaluating segmentation algorithms and
+  measuring ecological statistics. In: Proc. 8th Int'l Conf. Computer Vision.
+  vol.~2, pp. 416--423 (July 2001)
+
+\bibitem{citeulike:3906686}
+Meila, M.: Comparing clusterings by the variation of information. pp. 173--187
+  (2003)
+
+\bibitem{PSH08}
+Pantofaru, C., Schmid, C., Hebert, M.: Object recognition by integrating
+  multiple image segmentations. In: European Conference on Computer Vision.
+  vol. III, pp. 481--494 (2008)
+
+\bibitem{Ren03learninga}
+Ren, X., Malik, J.: Learning a classification model for segmentation. In: In
+  Proc. 9th Int. Conf. Computer Vision. pp. 10--17 (2003)
+
+\bibitem{Efros_2006_5395}
+Russell, B.C., Efros, A.A., Sivic, J., Freeman, W.T., Zisserman, A.: Using
+  multiple segmentations to discover objects and their extent in image
+  collections. In: Proceedings of CVPR (June 2006)
+
+\bibitem{Sha85}
+Shafer, S.A.: {Using color to separate reflection components}. Color Research
+  \& Application  10(4),  210--218 (1985)
+
+\bibitem{Shi_2000_3808}
+Shi, J., Malik, J.: Normalized cuts and image segmentation. Pattern Analysis
+  and Machine Intelligence, IEEE Transactions on  22 (2000)
+
+\bibitem{Unnikrishnan_2007_5789}
+Unnikrishnan, R., Pantofaru, C., Hebert, M.: Toward objective evaluation of
+  image segmentation algorithms. IEEE Transactions on Pattern Analysis and
+  Machine Intelligence  29,  929--944 (2007)
+
+\bibitem{1478239}
+Vazquez, E., Weijer, J., Baldrich, R.: Image segmentation in the presence of
+  shadows and highlights. In: ECCV '08: Proceedings of the 10th European
+  Conference on Computer Vision. pp. 1--14 (2008)
+
+\bibitem{Weijer05boostingcolor}
+Weijer, J.V.D., Gevers, T., Bagdanov, A., Edge, I.A., Detection, F.,
+  Statistical, I.D.: Boosting color saliency in image feature detection. IEEE
+  Trans. Pattern Analysis and Machine Intelligence  28,  150--156 (2005)
+
+\end{thebibliography}

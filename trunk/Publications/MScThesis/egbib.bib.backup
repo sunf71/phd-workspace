@@ -1,0 +1,412 @@
+@Misc{ Yz_colorimage,
+	author = "L. Lucchese Yz and Y {S. K. Mitra}",
+	title = "Color Image Segmentation: A State-of-the-Art Survey",
+	year = "2001"
+}
+
+@Article{ Shi_2000_3808,
+	author = "Jianbo Shi and J. Malik",
+	journal = "Pattern Analysis and Machine Intelligence, IEEE Transactions on",
+	title = "Normalized cuts and image segmentation",
+	year = "2000",
+	volume = "22",
+}
+
+@Article{ Felzenszwalb04efficientgraph-based,
+	author = "Pedro F. Felzenszwalb and Daniel P. Huttenlocher",
+	title = "Efficient graph-based image segmentation",
+	journal = "International Journal of Computer Vision",
+	year = "2004",
+	volume = "59",
+}
+
+@InProceedings{ 649285,
+	author = "Eran Borenstein and Shimon Ullman",
+	title = "Class-Specific, Top-Down Segmentation",
+	booktitle = "ECCV '02: Proceedings of the 7th European Conference on Computer Vision-Part II",
+	year = "2002",
+}
+
+@inproceedings{1478410,
+ author = {Fulkerson, Brian and Vedaldi, Andrea and Soatto, Stefano},
+ title = {Localizing Objects with Smart Dictionaries},
+ booktitle = {ECCV '08: Proceedings of the 10th European Conference on Computer Vision},
+ year = {2008},
+ pages = {179--192},
+ }
+
+@article{dip-unimodality,
+title = {The Dip Test of Unimodality},
+author = {Hartigan, J. A. and Hartigan, P. M.},
+journal = {The Annals of Statistics},
+volume = {13},
+year = {1985},
+}
+
+@INPROCEEDINGS{Christoudias02synergismin,
+    author = {Christopher M. Christoudias and Bogdan Georgescu and Peter Meer and Christopher M. Georgescu},
+    title = {Synergism in Low Level Vision},
+    booktitle = {In International Conference on Pattern Recognition},
+    year = {2002},
+    pages = {150--155}
+}
+
+@InProceedings{ Leibe04combinedobject,
+	author = "Bastian Leibe and Ales Leonardis and Bernt Schiele",
+	title = "Combined Object Categorization and Segmentation With An Implicit Shape Model",
+	booktitle = "In ECCV workshop on statistical learning in computer vision",
+	year = "2004",
+	pages = "17--32"
+}
+
+@InProceedings{ 1097721,
+	author = "J. Winn and N. Jojic",
+	title = "LOCUS: Learning Object Classes with Unsupervised Segmentation",
+	booktitle = "ICCV '05: Proceedings of the Tenth IEEE International Conference on Computer Vision (ICCV'05) Volume 1",
+	year = "2005",
+	pages = "756--763",
+}
+
+@INPROCEEDINGS{Levin06learningto,
+    author = {Anat Levin and Yair Weiss},
+    title = {Learning to combine bottom-up and top-down segmentation},
+    booktitle = {In ECCV},
+    year = {2006},
+    pages = {581--594}
+}
+
+@Article{ 163215,
+	author = "Alan Yuille and Peter Hallinan",
+	title = "Deformable templates",
+	booktitle = "Active vision",
+	year = "1993",
+	pages = "21--38",
+}
+
+@Article{ Unnikrishnan_2007_5789,
+	author = "Ranjith Unnikrishnan and Caroline Pantofaru and Martial Hebert",
+	title = "Toward Objective Evaluation of Image Segmentation Algorithms",
+	journal = "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+	pages = "929--944",
+	year = "2007",
+	volume = "29",
+}
+
+@InProceedings{ Efros_2006_5395,
+	author = "Bryan C. Russell and Alexei A. Efros and Josef Sivic and William T. Freeman and Andrew Zisserman",
+	title = "Using Multiple Segmentations to Discover Objects and their Extent in Image Collections",
+	booktitle = "Proceedings of CVPR",
+	month = "June",
+	year = "2006"
+}
+
+@InProceedings{ PSH08,
+	author = "Caroline Pantofaru and Cordelia Schmid and Martial Hebert",
+	title = "Object Recognition by Integrating Multiple Image Segmentations",
+	booktitle = "European Conference on Computer Vision",
+	volume = "III",
+	pages = "481--494",
+	year = "2008",
+}
+
+@InProceedings{ malisiewicz-bmvc07,
+	Author = "Tomasz Malisiewicz and Alexei A. Efros",
+	Booktitle = "British Machine Vision Conference (BMVC)",
+	Title = "Improving Spatial Support for Objects via Multiple Segmentations",
+	Month = "September",
+	Year = 2007
+}
+
+@inproceedings{1059188,
+ author = {Agarwal, Shilpa and Madasu, Shweta and Hanmandlu, Madasu and Vasikarla, Shantaram},
+ title = {A Comparison of some Clustering Techniques via Color Segmentation},
+ booktitle = {ITCC '05: Proceedings of the International Conference on Information Technology: Coding and Computing (ITCC'05) - Volume II},
+ year = {2005},
+ pages = {147--153},
+ }
+
+@inproceedings{649319,
+ author = {Freixenet, Jordi and Mu\,{n}oz, Xavier and Raba, D. and Mart\'{\i}, Joan and Cuf\'{\i}, Xavier},
+ title = {Yet Another Survey on Image Segmentation: Region and Boundary Information Integration},
+ booktitle = {ECCV '02: Proceedings of the 7th European Conference on Computer Vision-Part III},
+ year = {2002},
+ pages = {408--422},
+ }
+
+@techreport{Yang07unsupervisedsegmentation,
+    Author = {Yang, Allen Y. and Wright, John and Sastry, S. Shankar and Ma, Yi},
+    Title = {Unsupervised Segmentation of Natural Images via Lossy Data Compression},
+    Institution = {EECS Department, University of California, Berkeley},
+    Year = {2006},
+    Number = {UCB/EECS-2006-195},
+}
+
+@ARTICLE{Cheng01colorimage,
+    author = {H. D. Cheng and X. H. Jiang and Y. Sun and Jing Li Wang},
+    title = {Color image segmentation: Advances and prospects},
+    journal = {Pattern Recognition},
+    year = {2001},
+    volume = {34},
+    pages = {2259--2281}
+}
+
+@inproceedings{fulkerson09class,
+  Author = {B. Fulkerson and A. Vedaldi and S. Soatto},
+  Booktitle = {Proc. {ICCV}},
+  Title = {Class Segmentation and Object Localization with Superpixel Neighborhoods},
+  Year = {2009}
+}
+
+@ARTICLE{Comaniciu02meanshift,
+    author = {Dorin Comaniciu and Peter Meer and Senior Member},
+    title = {Mean shift: A robust approach toward feature space analysis},
+    journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    year = {2002},
+    volume = {24},
+    pages = {603--619}
+}
+
+@InProceedings{ Ren03learninga,
+	author = "Xiaofeng Ren and Jitendra Malik",
+	title = "Learning a classification model for segmentation",
+	booktitle = "In Proc. 9th Int. Conf. Computer Vision",
+	year = "2003",
+	pages = "10--17"
+}
+
+@InProceedings{ 4587471,
+	author = "A.P. Moore and S. Prince and J. Warrell and U. Mohammed and G. Jones",
+	booktitle = "Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference on",
+	title = "Superpixel lattices",
+	year = "2008",
+	month = "23-28",
+	pages = "1--8",
+}
+
+@InProceedings{ Shotton06textonboost:joint,
+	author = "J. Shotton and J. Winn and C. Rother and A. Criminisi",
+	title = "Textonboost: Joint appearance, shape and context modeling for multi-class object recognition and segmentation",
+	booktitle = "In ECCV",
+	year = "2006",
+	pages = "1--15"
+}
+
+@InProceedings{ He04multiscaleconditional,
+	author = "Xuming He and Richard S. Zemel and Miguel {\'A}. Carreira-perpi{\~n}{\'a}n",
+	title = "Multiscale conditional random fields for image labeling",
+	booktitle = "In CVPR",
+	year = "2004",
+	pages = "695--702"
+}
+
+@InProceedings{ kumar-iccv-05,
+	author = "Sanjiv Kumar and Martial Hebert",
+	title = "A Hierarchical Field Framework for Unified Context-Based Classification",
+	booktitle = "International Conference on Computer Vision",
+	year = 2005,
+}
+
+@InProceedings{ He06learningand,
+	author = "Xuming He and Richard S. Zemel and Debajyoti Ray",
+	title = "Learning and incorporating top-down cues in image segmentation",
+	booktitle = "In ECCV",
+	year = "2006",
+	pages = "338--351",
+}
+
+@Article{ 1416841,
+	author = "Stephen Gould and Jim Rodgers and David Cohen and Gal Elidan and Daphne Koller",
+	title = "Multi-Class Segmentation with Relative Location Prior",
+	journal = "Int. J. Comput. Vision",
+	volume = "80",
+	number = "3",
+	year = "2008",
+	pages = "300--316",
+}
+
+@InProceedings{ bb32196,
+	AUTHOR = "J.D.J. Shotton and M. Johnson and R. Cipolla",
+	TITLE = "Semantic texton forests for image categorization and segmentation",
+	BOOKTITLE = CVPR08,
+	YEAR = "2008",
+	PAGES = "1--8",
+	BIBSOURCE = "http://www.visionbib.com/bibliography/segment354.html\#TT30966"
+}
+
+@Article{ grubbs-1969,
+	author = "F. E. Grubbs",
+	journal = "Technometrics",
+	pages = "1--21",
+	title = "Procedures for detecting outlying observations in samples",
+	volume = "11",
+	year = "1969"
+}
+
+@inproceedings{1478239,
+ author = {Vazquez, Eduard and Weijer, Joost and Baldrich, Ramon},
+ title = {Image Segmentation in the Presence of Shadows and Highlights},
+ booktitle = {ECCV '08: Proceedings of the 10th European Conference on Computer Vision},
+ year = {2008},
+ pages = {1--14},
+ }
+
+@article{136817,
+ author = {Shafer, Steven A.},
+ title = {Using color to separate reflection components},
+ book = {Color},
+ year = {1992},
+ pages = {43--51},
+ }
+
+@Article{ crestes,
+	author = "Antonio M. Lopez and Felipe Lumbreras and Joan Serrat and Juan J. Villanueva",
+	title = "Evaluation of Methods for Ridge and Valley Detection",
+	journal = "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+	volume = "21",
+	year = "1999",
+	pages = "327--335",
+}
+
+@inproceedings{1069213,
+ author = {Cour, Timothee and Benezit, Florence and Shi, Jianbo},
+ title = {Spectral Segmentation with Multiscale Graph Decomposition},
+ booktitle = {CVPR '05: Proceedings of the 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05) - Volume 2},
+ year = {2005},
+ pages = {1124--1131},
+ }
+
+@article{1285194,
+ author = {Kim, Chiho and You, Bum-Jae and Jeong, Mun-Ho and Kim, Hagbae},
+ title = {Color segmentation robust to brightness variations by using B-spline curve modeling},
+ journal = {Pattern Recogn.},
+ volume = {41},
+ number = {1},
+ year = {2008},
+ pages = {22--37},
+ }
+
+@inproceedings{1153499,
+ author = {Ge, Feng and Wang, Song and Liu, Tiecheng},
+ title = {Image-Segmentation Evaluation From the Perspective of Salient Object Extraction},
+ booktitle = {CVPR '06: Proceedings of the 2006 IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+ year = {2006},
+ pages = {1146--1153},
+ }
+
+@INPROCEEDINGS{Hanbury06automaticimage,
+    author = {Allan Hanbury},
+    title = {Automatic image segmentation by positioning a seed},
+    booktitle = {In Computer Vision – European Conference on Computer Vision 2006, volume 3952},
+    year = {2006},
+    pages = {468--480},
+}
+
+@ARTICLE{Cheng02colorimage,
+    author = {H. D. Cheng and X. H. Jiang and Jingli Wang},
+    title = {Color image segmentation based on homogram thresholding and region merging},
+    journal = {Pattern Recognition},
+    year = {2002},
+    volume = {35},
+    pages = {373--393}
+}
+
+@ARTICLE{Weijer05boostingcolor,
+    author = {J. Van De Weijer and Th. Gevers and A.D. Bagdanov and I. A Edge and Feature Detection and I. D Statistical},
+    title = {Boosting Color Saliency in Image Feature Detection},
+    journal = {IEEE Trans. Pattern Analysis and Machine Intelligence},
+    year = {2005},
+    volume = {28},
+    pages = {150--156}
+}
+
+@Article{ jseg:462311,
+	author = "Y. Deng and B. S. Manjunath",
+	journal = "Pattern Analysis and Machine Intelligence, IEEE Transactions on",
+	pages = "800--810",
+	priority = "0",
+	title = "Unsupervised segmentation of color-texture regions in images and video",
+	volume = "23",
+	year = "2001"
+}
+
+@inproceedings{vedaldi08quick,
+  Author    = {A. Vedaldi and S. Soatto},
+  Title     = {Quick Shift and Kernel Methods for Mode Seeking},
+  Booktitle = {Proceedings of the European Conference on Computer Vision ({ECCV})},
+  Year      = {2008}
+}
+
+@MISC{libsvm,
+    author = {Chih-chung Chang and Chih-Jen Lin},
+    title = {LIBSVM: a Library for Support Vector Machines},
+    year = {2001}
+}
+
+@ARTICLE{Lowe04distinctiveimage,
+    author = {David G. Lowe},
+    title = {Distinctive Image Features from Scale-Invariant Keypoints},
+    journal = {International Journal of Computer Vision},
+    year = {2004},
+    volume = {60},
+    pages = {91--110}
+}
+
+@inproceedings{1099935,
+ author = {Unnikrishnan, R. and Pantofaru, C. and Hebert, M.},
+ title = {A Measure for Objective Evaluation of Image Segmentation Algorithms},
+ booktitle = {CVPR '05: Proceedings of the 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05) - Workshops},
+ year = {2005},
+ pages = {34},
+ }
+
+@InCollection{ citeulike:3906686,
+	author = "Marina Meila",
+	journal = "Learning Theory and Kernel Machines",
+	pages = "173--187",
+	title = "Comparing Clusterings by the Variation of Information",
+	year = "2003"
+}
+
+
+
+@InProceedings{MartinFTM01,
+  author = {D. Martin and C. Fowlkes and D. Tal and J. Malik},
+  title = {A Database of Human Segmented Natural Images and its Application to Evaluating Segmentation Algorithms and Measuring Ecological Statistics},
+  booktitle = {Proc. 8th Int'l Conf. Computer Vision},
+  year = {2001},
+  month = {July},
+  volume = {2},
+  pages = {416--423}
+}
+
+@misc{vedaldi08vlfeat,
+ Author = {A. Vedaldi and B. Fulkerson},
+ Title = {{VLFeat}: An Open and Portable Library of Computer Vision Algorithms},
+ Year  = {2008}
+}
+
+@misc{oxford_brookes,
+ Author = {L. Ladicky and P. Kohli and P. Torr},
+ Title = {Oxford Brookes entry, PASCAL VOC2007 Segmentation challenge},
+ Year  = {2007}
+}
+
+@misc{tkk_pascal,
+ Author = {V. Viitaniemi},
+ Title = {Helsinki University of Technology, PASCAL VOC2007 Challenge},
+ Year  = {2007}
+}
+
+@misc{pascal-voc-2007,
+ author = "Everingham, M. and Van~Gool, L. and Williams, C. K. I. and Winn, J. and Zisserman, A.",
+ title = "The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2007 {(VOC2007)} {R}esults",
+ howpublished = "http://www.pascal-network.org/challenges/VOC/voc2007/workshop/index.html"
+}
+
+@INPROCEEDINGS{Lampert08beyondsliding,
+    author = {Christoph H. Lampert and Matthew B. Blaschko and Thomas Hofmann},
+    title = {Beyond sliding windows: Object localization by efficient subwindow search},
+    booktitle = {In Proc. of the IEEE Conf. on Computer Vision and Pattern Recognition (CVPR},
+    year = {2008},
+    pages = {1--8}
+}

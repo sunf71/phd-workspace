@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: egpaper_for_review_final.aux
+The style file: ieee.bst
+Database file #1: egbib.bib
+Warning--empty booktitle in citeulike:3906686
+Warning--empty publisher in citeulike:3906686
+You've used 33 entries,
+            2120 wiz_defined-function locations,
+            685 strings with 9771 characters,
+and the built_in function-call counts, 11973 in all, are:
+= -- 1156
+> -- 570
+< -- 15
++ -- 227
+- -- 190
+* -- 760
+:= -- 1892
+add.period$ -- 96
+call.type$ -- 33
+change.case$ -- 194
+chr.to.int$ -- 0
+cite$ -- 35
+duplicate$ -- 487
+empty$ -- 975
+format.name$ -- 190
+if$ -- 2576
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 27
+newline$ -- 164
+num.names$ -- 66
+pop$ -- 253
+preamble$ -- 1
+purify$ -- 161
+quote$ -- 0
+skip$ -- 389
+stack$ -- 0
+substring$ -- 688
+swap$ -- 148
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 132
+warning$ -- 2
+while$ -- 116
+width$ -- 35
+write$ -- 347
+(There were 2 warnings)
