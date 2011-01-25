@@ -1,0 +1,38 @@
+\message{ !name(egpaper_for_review.tex)}\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
+
+
+% \cvprfinalcopy % *** Uncomment this line for the final submission
+
+\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+\ifcvprfinal\pagestyle{empty}\fi
+\begin{document}
+
+\message{ !name(egpaper_for_review.tex) !offset(534) }
+\begin{eqnarray}
+\forall_{p\in{K}, q\in{K}}, P(c_i=p|I) > P(c_i=q|I) \propto \nonumber \\
+\frac{\sum_{m=1}^NP(c_i^{S_m} = p|r_i^{S_m},I) > P(c_i^{S_m} =
+q|r_i^{S_m},I)}{N}
+\end{eqnarray}
+\message{ !name(egpaper_for_review.tex) !offset(615) }
+
+\end{document}

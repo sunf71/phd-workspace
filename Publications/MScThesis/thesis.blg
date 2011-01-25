@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: thesis.aux
+The style file: plainnat.bst
+Database file #1: egbib.bib
+Warning--string name "cvpr08" is undefined
+--line 230 of file egbib.bib
+Warning--empty booktitle in citeulike:3906686
+Warning--empty publisher in citeulike:3906686
+Warning--empty journal in 136817
+Warning--empty booktitle in bb32196
+Warning--empty journal in 163215
+You've used 45 entries,
+            2773 wiz_defined-function locations,
+            836 strings with 12694 characters,
+and the built_in function-call counts, 23053 in all, are:
+= -- 2062
+> -- 1277
+< -- 44
++ -- 429
+- -- 384
+* -- 1730
+:= -- 3326
+add.period$ -- 131
+call.type$ -- 45
+change.case$ -- 263
+chr.to.int$ -- 45
+cite$ -- 95
+duplicate$ -- 1138
+empty$ -- 1951
+format.name$ -- 457
+if$ -- 5013
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 39
+newline$ -- 228
+num.names$ -- 180
+pop$ -- 610
+preamble$ -- 1
+purify$ -- 218
+quote$ -- 0
+skip$ -- 940
+stack$ -- 0
+substring$ -- 892
+swap$ -- 241
+text.length$ -- 25
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 495
+warning$ -- 5
+while$ -- 217
+width$ -- 0
+write$ -- 570
+(There were 6 warnings)

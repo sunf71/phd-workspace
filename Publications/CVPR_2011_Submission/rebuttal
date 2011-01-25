@@ -1,0 +1,28 @@
+First, I want to thank all of the reviewers for the fruitful and extremely useful comments.
+
+This paper combines the benefits of both bottom-up and top-down segmentations fusion approaches. The bottom-up process combines different segments from different segmentations depending on the pre-defined measure of "segment goodness". The top-down process combines different regions classification by weighting confidence maps based on the votes of classifications from different confidence maps for different segmentations.
+
+The main novelties of the paper are:
+
+- Introducing a new framework that is extensible and tolerates combining of different image segmentations in both bottom-up and top-down fashion thus getting the benefits from the two sides.
+- Suggesting a novel technique for measuring goodness of segments using ridge based distribution analysis [5].
+- Extending the top-down segmentation fusion technique in [1] offering a more extensible and intuitive way of combining regions classification.
+
+I'd like to address two main clarifications from the reviewers:
+
+First (Asked by reviewer 1), In table 2, The difference between 31% by (MS+NC+GB)[1] and 20% by [1] as well is: 31% was obtained relying on a better feature extraction and a more complex kernel for the SVM classification in the framework we relied on in [2]. The first two rows of table 2 show different results from different methods for bottom-up segments fusion. The third and fourth rows show two different methods for the Top-Down segmentation fusion. The first one using the voting technique (Our proposed method) and, the second using the method explained in [1]. The fifth row shows our proposed method for combining bottom-up and top-down fusion techniques. Finally, the 6th to the 8th rows show the state of the art results. This will be shown in details in the caption of table 2 in the camera ready version.
+
+Second, the comments from reviewer 3 about the contributions of the paper show a clear mis-interpretation for the purpose of our work. First, In our work, our motivation for the bottom-up process was inspired from figure (3). We concluded the effect of increasing segments size on the accuracy of regions classification. Our goodness measure relies on the RAD[5] criteria which is robust to shadows and highlights and depends on the color distribution. In our work, we focus on a better region classification. Our motivation is mainly on the pre-attentive steps that can easily distinguish segments belonging to different objects. Although handling texture areas hasn't been in our scope in this case, we still got better results on PASCAL dataset. However, handling texture will be a further extension to our method. Second, In the top-down step, we mainly focus on extending the framework of [2] to add the benefit of combining multiple regions classifications in a way more intuitive and extensible than [1]. The CRF step already existed in that framework and this was clearly mentioned in the paper. We can still incorporate CRF in other ways like the method explained in [4] or [6]. The reviewer suggested that this work was just a combination of existing work already done in [3] and [4] which is not true. 
+
+Finally, the remaining comments on the writing shown by reviewers 1 and 2 will also be considered in the final camera ready version.
+
+I hope this clarifies things out.
+
+References used in the rebuttal:
+
+[1] Pantofaru et al., "Object recognition by integrating multiple image segmentations", ECCV 2008.
+[2] Fulkerson et al., "Class segmentation and object localization with superpixel neighborhoods", ICCV 2009.
+[3] Rabinovich at al., "Model order selection and cue combination for image segmentation", CVPR 2006.
+[4] Rabinovich at al., "Objects in Context", ICCV 2007.
+[5] Vazquez et al., "Image segmentation in the presence of shadows and highlights", ECCV 2008.
+[6] Gonfaus et al., "Harmony Potentials for Joint Classiﬁcation and Segmentation", CVPR 2010.
